@@ -1,2 +1,6 @@
 # Braille-Translator
-My notes on how to translate from English to Braille. 
+I like learning about langauges and how we represent them. This app is very much a learning tool for me and is not a fully functional polished transltor but may be helpful in expaining how Braille works to you. I have made other projects where I created various diffrent language input methods. These are all in my Github area so do take a look. I had learnt a bit of Sign language and next I was interested in how Braille works. This started as what I thought would be a small project but has shown me how complex Braille can be. I did find out that there are many varieties of Braille. The one I looked at is "Unified English Braille" which is controlled by "International Council on English Braille" and they have a website @ http://www.iceb.org/ueb.html 
+
+On the site there is a document with all the rules @ http://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf. I have not included the full set of rules in my app so feel free to add them if you want. Most of my work has been to add some tables where I can take the character and convert it to it Unicode Braille character and display this. 
+
+The app uses the system font which has the Unicode Braille symbols in it but you can change this to another Unicode font. Not all fonts have the Braille pages which is Unicode page 28. If you see blocks in the App then your font does not have the required Glyphs and you will need to change the font in the app.
